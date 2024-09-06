@@ -1,0 +1,25 @@
+type_name:
+    excluded: ID
+
+line_length:
+  warning: 180
+  ignores_function_declarations: true
+  ignores_comments: true
+  ignores_interpolated_strings: true
+  ignores_urls: true
+  
+large_tuple:
+  warning: 3
+
+disabled_rules:
+  - inclusive_language
+  - identifier_name
+  - trailing_whitespace
+  - force_cast
+  - force_try
+
+cyclomatic_complexity:
+    warning: 15
+
+function_body_length:
+    warning: 75
